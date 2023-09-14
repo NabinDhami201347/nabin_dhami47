@@ -29,6 +29,14 @@ const Navigation = () => {
           </Button>
         </Link>
         <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4">
+            <Link href={"/articles"}>
+              <p className="link-underline text-muted-foreground">articles</p>
+            </Link>
+            <Link href={"/projects"}>
+              <p className="link-underline text-muted-foreground">projects</p>
+            </Link>
+          </div>
           <Icon icon={Github} />
           <ThemeToggle />
         </div>

@@ -7,7 +7,6 @@ import Navigation from "@/components/common/navigation";
 import { cn } from "@/lib/utils";
 import Footer from "@/components/common/footer";
 import React from "react";
-import { Loading } from "@/components/shared/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
